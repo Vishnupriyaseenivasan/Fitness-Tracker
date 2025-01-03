@@ -1,0 +1,73 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.dashboard-container {
+  background-color: #f9f9f9;
+  position: absolute;
+}
+
+.dashboard-header {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  width: 1000px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.stat-card-step{
+  background: rgb(23, 169, 96);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.stat-card-water{
+  background: rgb(30, 169, 219);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.stat-card-calories{
+  background: rgb(239, 162, 8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.stat-card-heart{
+  background: rgb(229, 20, 20);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+@media screen and (max-width:1024px){
+  
+}

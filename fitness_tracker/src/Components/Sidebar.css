@@ -1,0 +1,16 @@
+.sidebar{
+    width: 120px;
+    height: 100vh;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    height: 920px;
+  }
+  .sidebar ul li{
+    background-color: #76e77c;
+    margin: 10px 10px;
+    width: 40px;
+    border-radius: 20px;
+    padding: 10px;
+  } 
+

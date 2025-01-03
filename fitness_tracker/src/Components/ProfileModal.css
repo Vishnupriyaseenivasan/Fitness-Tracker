@@ -1,0 +1,127 @@
+.dashboard {
+    font-family: Arial, sans-serif;
+    margin: 20px 3px;
+    background: #e7e3e3;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .profile-stats{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .profile-info {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .profile-icon {
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+    border-radius: 50%;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  
+  .logout-button {
+    width: 60px;
+  background: lightgray;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .profile-progress {
+    margin: 20px 0;
+  }
+  
+  .profile-progress h1 {
+    font-size: 40px;
+    color: #a4d65e;
+  }
+  
+  .edit-profile {
+    background: #a4d65e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .profile-stats {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .profile-stats div h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .profile-stats div p {
+    margin: 0;
+    color: #888;
+  }
+  
+  .goals-section {
+    margin-bottom: 20px;
+    
+  }
+  
+  .goals-section .goal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .goals-section .goal span {
+    font-size: 25px;
+  }
+  .schedule-section{
+    padding: 20px;
+    width: 320px;
+  }
+  .schedule-section .schedule {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .schedule-info h4 {
+    margin: 0;
+  }
+  
+  .schedule-info p {
+    margin: 0;
+    color: #888;
+  }
+  
+  .schedule-date {
+    color: #555;
+  }
