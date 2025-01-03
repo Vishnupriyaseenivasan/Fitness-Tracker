@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import image1 from "./images/fitness.avif";
-import logo from "./images/logo.png";
-import image2 from "./images/register img.jpg";
+import logo1 from './images/logo.png';
+import image2 from './images/register img.jpg';
 import "./App.css";
 import { useNavigate } from "react-router-dom";
 
@@ -43,7 +43,7 @@ const LoginForm = ({ onSwitchToRegister }) => {
           <img src={image1} alt="hhh" className="fitness text-success" />
         </div>
         <div>
-          <img src={logo} alt="logo" className="logo " />
+          <img src={logo1} alt="logo" className="logo " />
           <br />
           <h2 style={{ margin: "10px 160px 10px" }}>Login</h2>
           <h2 style={{ margin: "10px 80px 10px" }}>Welcome back !</h2>
